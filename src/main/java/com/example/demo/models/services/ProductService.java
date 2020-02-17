@@ -18,4 +18,6 @@ public interface ProductService {
     public Mono<Category> saveCategories(Category category);
 
     public Mono<Product> findByName(String name);
+
+    public Mono<Category> findByCategoryName(String name);
 }
